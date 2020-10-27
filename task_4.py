@@ -8,7 +8,8 @@ i = 0
 max = number[i]
 
 while i < len(number):
-    if int(max) < int(number[i]):
+    if int(max) < int(number[i]):  # работает, но каждый раз дважды! преобразовывать типы - это дорого
+                                    # попробуй один раз преобразовать, а потом использовать число и оперции % и //
         max = number[i]
     i += 1
 
