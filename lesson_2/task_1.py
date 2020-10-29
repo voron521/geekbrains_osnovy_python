@@ -3,7 +3,13 @@
 # Использовать функцию type() для проверки типа.
 # Элементы списка можно не запрашивать у пользователя, а указать явно, в программе.
 
+<<<<<<< HEAD
 my_list = ["andrew", "john", 15, None, '', {"Russia": "Moskow", "USA": "Washington"}, [12, 1, 0]]
 
 for i in my_list:
+=======
+a = ["andrew", "john", 15, None, '', {"Russia": "Moskow", "USA": "Washington"}, [12, 1, 0]]
+
+for i in a:
+>>>>>>> Lesson_2
     print(type(i))
